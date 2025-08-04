@@ -1,0 +1,12 @@
+
+{
+  "name": "audio-visualizer-pro",
+  "version": "1.0.0",
+  "description": "Audio Visualizer for Railway",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --minify --outfile=dist/bundle.js --log-level=info"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  }
+}
